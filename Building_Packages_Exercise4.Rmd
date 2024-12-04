@@ -1,0 +1,26 @@
+---
+title: "Building Packages Exercise 4"
+author: "Coley Christoph"
+date: "2024-12-04"
+output: html_document
+---
+
+# EXERCISE 4
+
+#Properly load the Package
+```{r}
+library(Christoph445Package)
+library(tidyverse)
+```
+
+# Link to the Package
+
+
+
+# A graph of the Flagstaff_Weather data.
+
+
+
+#FizzBuzz output for  n = 15 and  n= −15.
+
+
