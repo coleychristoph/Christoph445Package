@@ -2,7 +2,8 @@
 title: "Building Packages Exercise 4"
 author: "Coley Christoph"
 date: "2024-12-04"
-output: html_document
+output:
+  pdf_document: default
 ---
 
 # EXERCISE 4
@@ -14,13 +15,26 @@ library(tidyverse)
 ```
 
 # Link to the Package
+Link to GitHub Repository [HERE] {https://github.com/coleychristoph/Christoph445Package}
 
 
+**c)** A graph of the `Flagstaff_Weather` data.
+```{r}
+data(Flagstaff_Weather)
+```
 
-# A graph of the Flagstaff_Weather data.
+```{r}
+ggplot(data = Flagstaff_Weather,
+mapping=aes(x = DATE,
+            y= SNOW))+
+  geom_point()
+```
+**d)** FizzBuzz output for $n = 15$ and $n = -15$.
 
+```{r, error= TRUE}
+FizzBuzz(15)
+```
 
-
-#FizzBuzz output for  n = 15 and  n= −15.
-
-
+```{r, error= TRUE}
+FizzBuzz(-15)
+```
